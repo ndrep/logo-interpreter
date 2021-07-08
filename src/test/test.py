@@ -1,5 +1,9 @@
-from interpreter import run
-from parser import parse
+from os import path, getcwd, listdir
+file = path.join(getcwd(), listdir(getcwd())[0])
+here = path.dirname(path.dirname(file))
+print(here)
+from src.logo.interpreter import run
+from src.logo.parser import parse
 
 COMMAND_TESTS = {
     "op_precedence": [

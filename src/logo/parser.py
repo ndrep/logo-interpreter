@@ -1,5 +1,5 @@
 from liblet import Tree, AnnotatedTreeWalker
-from grammar import Logo
+from src.logo.grammar import Logo
 
 logoast = AnnotatedTreeWalker("name")
 brackets = ["(", ")", "[", "]", "-", "+"]

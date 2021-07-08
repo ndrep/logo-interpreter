@@ -4,7 +4,7 @@ from turtle import *
 from functools import reduce
 from random import randrange, seed
 from math import radians, degrees, sin, log, log10, cos, atan, e, sqrt, exp, pow, pi
-from parser import parse
+from src.logo.parser import parse
 import sys
 
 sys.tracebacklimit = 0
